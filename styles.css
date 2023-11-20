@@ -1,0 +1,22 @@
+
+/* styles.css */
+
+.dropzone {
+    border: 2px dashed #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.dropzone .dz-message {
+    margin: 2em 0;
+}
+
+.dropzone .dz-success-mark {
+    display: block;
+}
+
+.dropzone .dz-error-mark {
+    display: none;
+}
