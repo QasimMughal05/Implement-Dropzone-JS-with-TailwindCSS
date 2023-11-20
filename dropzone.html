@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/dropzone@5.9.2/dist/dropzone.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tailwind CSS Dropzone</title>
+</head>
+<body>
+    <div class="container mx-auto mt-10">
+        <form action="/upload" class="dropzone" id="my-dropzone">
+            <div class="dz-message">
+                <div class="text-center">
+                    <span class="block text-gray-500 font-bold">Drop files here or click to upload</span>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/dropzone@5.9.2/dist/dropzone.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
